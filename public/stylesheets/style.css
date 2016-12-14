@@ -1,0 +1,138 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html {
+
+}
+body { 
+	background-color: #512833;
+	margin: 0px; 
+	padding: 0px;
+	color: #961ED6;
+}
+p { 
+	font: 11px/14px verdana, sans-serif;
+	margin-top: 0px;
+	text-align: justify;
+}
+h1, h2{
+	font: 20px/20px verdana, sans-serif;
+	font-weight: bold;
+	color: #512833;
+}
+h3 {
+	font: 14px/14px verdana, sans-serif;
+	font-weight: bold;
+	padding: 10px 0 10px 0;
+	color: #FEE8DB;
+	font-style: italic;
+	text-decoration: overline;
+}
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #741125;
+}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #913D4C;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+#container {
+	padding: 25px;
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 700px;
+}
+
+#pageHeader h1 {
+	width: 311px;
+	height: 400px;
+	float: left;
+	background: url(header1.jpg) no-repeat top left;
+}
+#pageHeader h1 span {
+}
+#pageHeader h2 {
+	float: left;
+	height: 100px;
+}
+#pageHeader h2 span {
+}
+
+#preamble {
+	float: left;
+	width: 350px;
+	padding: 0px 5px 5px 5px;
+	background-color: #89415C;
+	border-top: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+#preamble h3, #explanation h3, #participation h3, #benefits h3, #requirements h3 {
+}
+#supportingText {
+	border: 4px solid #fff;
+	border-top: 0px;
+	background-color: #89415C;
+	padding: 5px 0px 0 5px;
+	margin-left: 150px;
+	margin-right: 25px;
+}
+#explanation {
+	margin: 0px;
+	padding-left: 5px;
+	float: left;
+	width: 350px;
+}
+#participation {
+	float: left;
+	width: 509px;
+}
+#benefits, #requirements {
+	float: left;
+	width: 509px;
+}
+#footer {
+	clear: both;
+	font: 10px verdana, sans-serif;
+	text-align: center;
+	background-color: #89415C;
+	margin: 0 75px 0 75px;
+}
+#linkList {
+	background-color: #D39797;
+	position: absolute;
+	top: 425px;
+	left: 25px;
+	margin-bottom: 25px;
+	border-left: 4px solid #fff;
+	border-bottom: 4px solid #fff;
+	border-right: 4px solid #fff;
+}
+#linkList2 {
+	font: 10px verdana, sans-serif;
+	width: 136px;
+	padding: 0 5px 0 5px;
+	color: #999966;
+}
+#linkList2 #lselect li {
+}
+#linkList2 #lselect .c {
+	color: #777744;
+}
+#linkList ul {
+	margin: 0px;
+	padding: 0px;
+}
+#linkList li {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	list-style-type: none;
+	display: block;
+}
